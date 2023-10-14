@@ -1,0 +1,56 @@
+#formularioCadastro {
+    margin-top: 40px;
+    padding: 40px;
+    display: inline-block;
+    width: 1200px;
+    height: 570px;
+    background: linear-gradient( #ED9494,#975d5d);
+  }
+
+.title {
+  color: #975d5d;
+}
+
+.containerPrimeiroInput {
+  margin-top: 25px;
+}
+  
+.campoInput {
+    width: 900px;
+    height: 40px;
+    margin: 20px 0;
+    outline: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.campoInput::-webkit-input-placeholder {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.658);
+}
+
+.socialMedias {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  width: 40px;
+  margin: 20px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonSubmit {
+  border: none;
+  margin-bottom: 15px;
+  background-color: rgba(100, 250, 100, 0.863);
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+}
+
