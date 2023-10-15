@@ -12,6 +12,7 @@ function Cadastro() {
         
     });
 
+   
     function handlerValues(value) {
         setInputValue(prevValue => ({
             ...prevValue,
